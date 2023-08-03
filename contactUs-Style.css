@@ -1,0 +1,48 @@
+.contact-section{
+    margin-top: 15vh;
+    padding-top: 20px;
+}
+.contact-section form{
+    box-shadow: 1px 1px 2px 1px #bcbaba;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding-top: 20px;
+}
+#Map-section{
+    padding-top: 10px;
+    background-color:#e8e8e8;
+}
+#contact-social-media{
+    height: 350px;
+}
+#contact-social-media img{
+    margin-top: -2rem;
+    margin-left: 20px;
+}
+/* #Maaun-map{
+    width: auto;
+} */
+
+
+/* =======SMALL DEVICES======== */
+@media screen and (max-width:767px){
+    .contact-section form{
+        box-shadow: 1px 0px 2px 1px #bcbaba;
+        border-radius: 1px;
+        -webkit-border-radius: 1px;
+        -moz-border-radius: 1px;
+        -ms-border-radius: 1px;
+        -o-border-radius: 1px;  
+    }
+    #Maaun-map{
+        width: 80%;
+    }
+    .contact-section{
+        margin-top: 11vh;
+        padding-top: 25px;
+    }
+    
+}
